@@ -1,0 +1,73 @@
+body
+{
+    background-image: url(baby-animals.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #da07f232;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.signup
+{
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 3px;
+ 
+}
+.login{
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    background: rgb(131, 120, 127);
+    border-radius: 3px;
+}
+
+
+h1
+{
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+    font-size: larger;
+    text-emphasis-color: rgb(244, 2, 208);
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex ;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid #1c872b;
+    border-radius: 10px;
+    outline: none;
+
+}
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #8d05fc;
+    color: chartreuse;
+    font-size: 18px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: bisque;
+    background-color: deeppink;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
